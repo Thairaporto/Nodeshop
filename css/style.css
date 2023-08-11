@@ -1,0 +1,122 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal; /*largura de font*/
+    box-sizing: border-box; /*autoajusta o tamanho da caixa*/
+    outline: none;
+    border:none;
+}
+img{
+    max-width: 100; /*maximo da largura*/
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+font-size: 1.5em;
+color: #333;
+}
+p{
+    font-size: 1em;
+    color: #777;
+}
+/*CABECALHO*/
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: #fed2b5;
+}
+.logo a{
+    width: 221px;
+    height: 48px;
+    float: left;
+    background: url(../img/logo.png) no-repeat; /*inserir logo invisivel para ajudar na busca do google*/
+    font-size: 0;
+} 
+.cabecalho form{  /*principal h1*/
+    width: 30%;
+    float:right;
+}
+.cabecalho input[type="text"]{ /* estilizando a busca so lado esquerdo*/
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 10px 0 0 10px; /*precisa de 4 medidas*/
+  }
+  .cabecalho button {
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    border-radius: 0 10px 10px 0;
+    background-color: #fff7D2;
+    color:#fff;
+    cursor:pointer;
+    }
+    /*MENU*/
+    .menu{
+        width: 100%;
+        float: left;
+        background-color: #111;
+        padding: 18px 8%;
+    }
+    .menu li{
+        float: left;
+    }
+    .menu li a{
+        color:#9d9d9d;
+        margin-right: 25px;
+    }
+    .menu li a:hover{
+        color: #fff;
+    }
+/*SOCIAL-ICONS*/
+.social-icons{
+    float:right;
+}
+#banner{
+    width: 100%;
+    height: 200px;
+    float: right;
+}
+#banner img{
+    width: 100%;/*largura*/
+    height: 100%;/*altura*/
+}
+#produtos{
+    width: 100%;
+    text-align:center;
+    margin-bottom: 50px;
+}
+.produto{
+width: 300px;
+height: 100%;
+}
+.produto img{
+    width: 200px;
+    height:200px ;
+}
+#catalogo{
+    display: flex;
+    justify-content: space-between;
+}
+.produto button{
+    width: 50%;
+    height: 35px;
+    background-color: #fed2b5;
+}
+#localizacao iframe{
+    width: 80%;
+    height: 400px; ;
+    margin: top 40px; 
+}
+#localizacao{
+    display: flex;
+    justify-content: center;
+}
